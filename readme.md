@@ -4,6 +4,8 @@
 <a href="https://github.com/simonboasaeter/assignment_1">Link to Github</a> <br />
 <a href="https://kristiania-sb-assignment-1.netlify.app/">Link to netlify deployment</a>
 
+<p>Notice. Images was created using AI</p>
+
 <blockquote>
 Note. This is a student project created
 for educational purposes and is not an official or affiliated website.
