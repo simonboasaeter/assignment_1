@@ -374,6 +374,20 @@ a {
   font-size: 18px;
 }
 
+.order-section {
+  padding: 70px 0;
+}
+
+.order-section__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+
 .order-form {
   background-color: var(--color-white);
   padding: 35px;
