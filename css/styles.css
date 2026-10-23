@@ -2,17 +2,46 @@
 
 :root {
   --color-dark: #08171c;
+  --color-light: #f4f7f5;
   --color-gray: #dce5e5;
   --color-orange: #e77c40;
   --color-white: #ffffff;
+  --color-text: #152327;
   --font-heading: "Manrope", sans-serif;
   --font-body: "DM Sans", sans-serif;
+}
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-light);
+}
+
+a {
+  text-decoration: none;
 }
 
 .site-header {
   background-color: var(--color-dark);
   padding: 20px 0;
 }
+
+.site-header__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__logo {
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .navigation__list {
   display: flex;
   gap: 30px;
