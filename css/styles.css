@@ -1,8 +1,13 @@
 :root {
+  --color-dark: #08171c;
   --color-white: #ffffff;
   --font-body: "DM Sans", sans-serif;
 }
 
+.site-header {
+  background-color: var(--color-dark);
+  padding: 20px 0;
+}
 }
 
 .site-footer {
