@@ -83,6 +83,11 @@ a {
   align-items: center;
 }
 
+.hero__eyebrow {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+
 .hero__title {
   font-family: var(--font-heading);
   font-size: 64px;
