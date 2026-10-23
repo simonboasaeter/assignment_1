@@ -32,6 +32,90 @@
     </header>
 
     <main>
+          <form class="order-form" action="#" method="post">
+            <section class="order-form__section">
+              <div class="order-form__section-heading">
+                <div>
+                  <h2 class="order-form__section-title">Kontaktinformasjon</h2>
+
+                  <p class="order-form__section-description">
+                    Fortell oss hvem som skal kontaktes om bestillingen.
+                  </p>
+                </div>
+              </div>
+
+              <div class="order-form__grid">
+                <div class="order-form__field">
+                  <label class="order-form__label" for="full-name">
+                    Fullt navn
+                  </label>
+
+                  <input
+                    class="order-form__input"
+                    placeholder="Ola Nordmann"
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+
+                <div class="order-form__field">
+                  <label class="order-form__label" for="email">E-post</label>
+
+                  <input
+                    class="order-form__input"
+                    placeholder="ola@nordmann.no"
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                  />
+                </div>
+
+                <div class="order-form__field">
+                  <label class="order-form__label" for="phone">
+                    Telefonnummer
+                  </label>
+
+                  <input
+                    class="order-form__input"
+                    placeholder="+4712345678"
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    autocomplete="tel"
+                    required
+                  />
+                </div>
+
+                <div class="order-form__field">
+                  <label class="order-form__label" for="delivery-date">
+                    Ønsket leveringsdato
+                  </label>
+
+                  <input
+                    class="order-form__input"
+                    type="date"
+                    id="delivery-date"
+                    name="delivery-date"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <div class="order-form__actions">
+              <button class="button button--primary" type="submit">
+                Send bestillingsforespørsel
+              </button>
+
+              <a class="button button--secondary" href="index.html">
+                Tilbake til båten
+              </a>
+            </div>
+          </form>
     </main>
 
     <footer class="site-footer">
