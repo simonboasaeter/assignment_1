@@ -215,6 +215,15 @@ a {
   font-size: 17px;
 }
 
+.boat-details__list {
+  padding-left: 20px;
+}
+
+.boat-details__item {
+  margin-bottom: 12px;
+}
+
+
 .technology {
   background-color: var(--color-dark);
   color: var(--color-white);
