@@ -25,6 +25,10 @@
   color: var(--color-orange);
 }
 
+.site-footer__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .site-footer {
