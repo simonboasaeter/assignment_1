@@ -1,5 +1,7 @@
 :root {
   --color-dark: #08171c;
+  --color-gray: #dce5e5;
+  --color-orange: #e77c40;
   --color-white: #ffffff;
   --font-body: "DM Sans", sans-serif;
 }
@@ -8,6 +10,21 @@
   background-color: var(--color-dark);
   padding: 20px 0;
 }
+.navigation__list {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  list-style: none;
+}
+
+.navigation__link {
+  color: var(--color-gray);
+}
+
+.navigation__link:hover {
+  color: var(--color-orange);
+}
+
 }
 
 .site-footer {
