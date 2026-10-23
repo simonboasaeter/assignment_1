@@ -473,3 +473,20 @@ a {
   gap: 15px;
 }
 
+/** Responsive Styles **/
+@media (max-width: 800px) {
+  .hero__container,
+  .boat-details__container,
+  .specifications__container,
+  .order-section__container {
+    grid-template-columns: 1fr;
+  }
+
+  .performance__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero__title,
+  .order-hero__title {
+    font-size: 48px;
+  }
+}
