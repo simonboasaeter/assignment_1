@@ -399,6 +399,26 @@ a {
   padding: 6px;
 }
 
+.order-summary__content {
+  padding: 25px;
+}
+
+.order-summary__eyebrow {
+  color: var(--color-orange);
+}
+
+.order-summary__title {
+  font-family: var(--font-heading);
+}
+
+.order-summary__price {
+  color: var(--color-gray);
+}
+
+.order-summary__link {
+  color: var(--color-orange);
+}
+
 .order-form {
   background-color: var(--color-white);
   padding: 35px;
