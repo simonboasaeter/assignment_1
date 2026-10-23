@@ -10,6 +10,7 @@
   --font-heading: "Manrope", sans-serif;
   --font-body: "DM Sans", sans-serif;
 }
+
 body {
   margin: 0;
   font-family: var(--font-body);
@@ -56,6 +57,19 @@ a {
 .navigation__link:hover {
   color: var(--color-orange);
 }
+
+.hero__title {
+  font-family: var(--font-heading);
+  font-size: 64px;
+  margin: 10px 0;
+}
+
+.hero__description {
+  color: var(--color-gray);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
 
 .site-footer__container {
   width: 90%;
