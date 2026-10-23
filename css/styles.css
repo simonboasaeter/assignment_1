@@ -2,11 +2,13 @@
 
 :root {
   --color-dark: #08171c;
+  --color-dark-blue: #0e272d;
   --color-light: #f4f7f5;
   --color-gray: #dce5e5;
   --color-orange: #e77c40;
   --color-white: #ffffff;
   --color-text: #152327;
+  --color-text-light: #66777a;
   --font-heading: "Manrope", sans-serif;
   --font-body: "DM Sans", sans-serif;
 }
@@ -146,6 +148,40 @@ a {
 }
 
 .button--text {
+  color: var(--color-gray);
+}
+
+.performance {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+  padding: 50px 0;
+}
+
+.performance__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.performance__item {
+  padding: 20px;
+  border-right: 1px solid #466067;
+}
+
+.performance__value {
+  font-family: var(--font-heading);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.performance__unit {
+  color: var(--color-orange);
+  margin-left: 5px;
+}
+
+.performance__label {
   color: var(--color-gray);
 }
 
