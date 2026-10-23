@@ -18,6 +18,11 @@ body {
   background-color: var(--color-light);
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 a {
   text-decoration: none;
 }
@@ -70,6 +75,16 @@ a {
   margin-bottom: 30px;
 }
 
+.hero__image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.hero__image-label {
+  display: none;
+}
 
 .site-footer__container {
   width: 90%;
