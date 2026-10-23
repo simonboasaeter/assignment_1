@@ -150,6 +150,42 @@ a {
 }
 
 
+.specifications {
+  background-color: var(--color-gray);
+  padding: 80px 0;
+}
+
+.specifications__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+}
+
+.specifications__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.specifications__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #aebbbb;
+}
+
+.specifications__label {
+  color: var(--color-text-light);
+}
+
+.specifications__value {
+  font-weight: 600;
+}
+
+
 .site-footer__container {
   width: 90%;
   max-width: 1200px;
