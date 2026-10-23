@@ -485,6 +485,16 @@ a {
   .performance__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .performance__item {
+    border-right: none;
+  }
+
+  .technology__grid,
+  .order-form__grid {
+    grid-template-columns: 1fr;
+  }
+
   .hero__title,
   .order-hero__title {
     font-size: 48px;
@@ -496,6 +506,22 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+  }
+
+  .navigation__list {
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 15px;
+  }
+
+  .hero__title,
+  .order-hero__title {
+    font-size: 38px;
+  }
+
+  .hero__image {
+    height: 300px;
+  }
 
   .hero__actions,
   .order-form__actions {
@@ -506,4 +532,4 @@ a {
   .order-form {
     padding: 20px;
   }
-  }
+}
