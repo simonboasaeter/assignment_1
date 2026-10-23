@@ -369,6 +369,10 @@ a {
   font-size: 60px;
 }
 
+.order-hero__description {
+  color: var(--color-gray);
+  font-size: 18px;
+}
 
 .order-form {
   background-color: var(--color-white);
