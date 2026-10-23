@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap");
+
 :root {
   --color-dark: #08171c;
   --color-gray: #dce5e5;
   --color-orange: #e77c40;
   --color-white: #ffffff;
+  --font-heading: "Manrope", sans-serif;
   --font-body: "DM Sans", sans-serif;
 }
 
@@ -35,4 +38,15 @@
   background-color: #050f12;
   color: var(--color-white);
   padding: 40px 0;
+}
+
+.site-footer__title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.site-footer__disclaimer {
+  color: #a4b4b6;
+  font-size: 14px;
+  max-width: 700px;
 }
