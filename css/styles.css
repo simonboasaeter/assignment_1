@@ -1,0 +1,12 @@
+:root {
+  --color-white: #ffffff;
+  --font-body: "DM Sans", sans-serif;
+}
+
+}
+
+.site-footer {
+  background-color: #050f12;
+  color: var(--color-white);
+  padding: 40px 0;
+}
