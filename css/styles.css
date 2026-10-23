@@ -29,6 +29,8 @@ a {
   text-decoration: none;
 }
 
+/** Site Header Styles **/
+
 .site-header {
   background-color: var(--color-dark);
   padding: 20px 0;
@@ -50,6 +52,8 @@ a {
   font-weight: 700;
 }
 
+/** Navigation Styles **/
+
 .navigation__list {
   display: flex;
   gap: 30px;
@@ -68,6 +72,8 @@ a {
 .navigation__link--active {
   color: var(--color-orange);
 }
+
+/** Hero Section Styles **/
 
 .hero {
   background-color: var(--color-dark);
@@ -118,6 +124,7 @@ a {
   display: none;
 }
 
+/** Button Styles **/
 .button {
   display: flex;
   align-items: center;
@@ -150,6 +157,22 @@ a {
 .button--text {
   color: var(--color-gray);
 }
+
+/** Section Heading Styles **/
+
+.section-heading__eyebrow {
+  color: var(--color-orange);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section-heading__title {
+  font-family: var(--font-heading);
+  font-size: 44px;
+  margin-top: 10px;
+}
+
+/** Performance Section Styles **/
 
 .performance {
   background-color: var(--color-dark-blue);
@@ -185,6 +208,8 @@ a {
   color: var(--color-gray);
 }
 
+/** Boat Details Section Styles **/
+
 .boat-details {
   padding: 80px 0;
 }
@@ -196,18 +221,6 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 60px;
-}
-
-.section-heading__eyebrow {
-  color: var(--color-orange);
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.section-heading__title {
-  font-family: var(--font-heading);
-  font-size: 44px;
-  margin-top: 10px;
 }
 
 .boat-details__description {
@@ -223,6 +236,22 @@ a {
   margin-bottom: 12px;
 }
 
+.boat-details__feature {
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
+  padding: 30px;
+}
+
+.boat-details__feature-title {
+  font-family: var(--font-heading);
+  font-size: 28px;
+}
+
+.boat-details__feature-description {
+  color: var(--color-gray);
+}
+
+/** Technology Section Styles **/
 
 .technology {
   background-color: var(--color-dark);
@@ -261,6 +290,8 @@ a {
   color: var(--color-gray);
 }
 
+/** Specifications Section Styles **/
+
 .specifications {
   background-color: var(--color-gray);
   padding: 80px 0;
@@ -296,6 +327,7 @@ a {
   font-weight: 600;
 }
 
+/** Footer Styles **/
 
 .site-footer__container {
   width: 90%;
